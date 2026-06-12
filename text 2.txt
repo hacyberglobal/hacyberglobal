@@ -1,0 +1,29 @@
+; Zone file for hacyberglobaltech.com
+$TTL 3600
+@    IN    SOA    ns1.yourprovider.com. admin.hacyberglobaltech.com. (
+                  2026060201 ; Serial
+                  3600       ; Refresh
+                  1800       ; Retry
+                  604800     ; Expire
+                  3600       ; Minimum TTL
+                  )
+
+; Name Servers (Update these to match your Domain Registrar/DNS Host)
+@    IN    NS    ns1.yourprovider.com.
+@    IN    NS    ns2.yourprovider.com.
+
+; A Records
+@    IN    A    [YOUR_WEB_SERVER_IP]
+www  IN    A    [YOUR_WEB_SERVER_IP]
+
+; MX Records (REQUIRED for support@hacyberglobal.com to work)
+; REPLACE these with the specific MX records your email provider gave you
+@    IN    MX    10 mx.yourprovider.com.
+
+; TXT Records (Security: SPF, DKIM, DMARC)
+; SPF: Prevents others from spoofing your email
+@    IN    TXT    "v=spf1 include:spf.yourprovider.com ~all"
+
+; DKIM: Digitally signs your email for trust (Use the key provided by your host)
+; DMARC: Instructions on how to handle unauthorized emails
+_dmarc    IN    TXT    "v=DMARC1; p=none; rua=mailto:support@hacyberglobal.com"

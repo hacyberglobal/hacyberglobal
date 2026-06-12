@@ -1,0 +1,25 @@
+id,timestamp,type,badge,message,offerId
+LOG-0.40582129595322447-1779557228863,"10:27:08.860",info,"SYS_INIT","Telemetry System initialized. Scanning Walmart Store cluster geofence. Ready to receive dispatch offers.",
+LOG-0.09121642843396593-1779557228863,"10:27:08.860",info,"DISPATCH","Incoming wave: Dispatched Curbside Pickup # SPK-115042 ($20.79) at Walmart Store #0714.",SPK-115042
+LOG-0.09126206961159411-1779557228863,"10:27:08.861",info,"SYS_INIT","Telemetry System initialized. Scanning Walmart Store cluster geofence. Ready to receive dispatch offers.",
+LOG-0.42008180215842095-1779557228863,"10:27:08.861",info,"DISPATCH","Incoming wave: Dispatched Curbside Pickup # SPK-344808 ($13.79) at Walmart Store #0831.",SPK-344808
+LOG-0.6539525858857-1779557236363,"10:27:16.363",info,"DISPATCH","New FCFS Dispatch available: Shop & Deliver #SPK-882489 • Pay: $29.12 (3.2 mi).",SPK-882489
+LOG-0.04790353434767025-1779557236363,"10:27:16.363",info,"DISPATCH","New FCFS Dispatch available: Shop & Deliver #SPK-750364 • Pay: $21.95 (4.3 mi).",SPK-750364
+LOG-0.5272142478473077-1779557236389,"10:27:16.388",info,"CHIME","🔊 Audio dispatch indicator triggered! Matches set filters for #SPK-882489 ($29.12). [HIGH-PAYING BONUS APPLIED]",SPK-882489
+LOG-0.5593292231929267-1779557240990,"10:27:20.990",competitor,"SWIPED","RIVAL SWIPE: Another driver accepted #SPK-882489 ($29.12) before you tapped.",SPK-882489
+LOG-0.14343792290730273-1779557243863,"10:27:23.863",info,"DISPATCH","New FCFS Dispatch available: Shop & Deliver #SPK-991197 • Pay: $33.52 (6.4 mi).",SPK-991197
+LOG-0.597758099008241-1779557243863,"10:27:23.863",info,"DISPATCH","New FCFS Dispatch available: Curbside Pickup #SPK-258205 • Pay: $14.42 (10.6 mi).",SPK-258205
+LOG-0.21157209612474825-1779557243880,"10:27:23.880",info,"CHIME","🔊 Audio dispatch indicator triggered! Matches set filters for #SPK-991197 ($33.52). [HIGH-PAYING BONUS APPLIED]",SPK-991197
+LOG-0.787774926041456-1779557246095,"10:27:26.095",competitor,"SWIPED","RIVAL SWIPE: Another driver accepted #SPK-882489 ($29.12) before you tapped.",SPK-882489
+LOG-0.89841088254879-1779557247110,"10:27:27.110",competitor,"SWIPED","RIVAL SWIPE: Another driver accepted #SPK-882489 ($29.12) before you tapped.",SPK-882489
+LOG-0.7449053179877821-1779557251191,"10:27:31.191",expire,"EXPIRED","Offer #SPK-344808 expired. Order reclaimed by Walmart dispatch stream.",SPK-344808
+LOG-0.33029628367260444-1779557251191,"10:27:31.191",expire,"EXPIRED","Offer #SPK-344808 expired. Order reclaimed by Walmart dispatch stream.",SPK-344808
+LOG-0.39274546214035055-1779557251363,"10:27:31.363",info,"DISPATCH","New FCFS Dispatch available: Curbside Pickup #SPK-141355 • Pay: $17.61 (8.7 mi).",SPK-141355
+LOG-0.25737243073705207-1779557251363,"10:27:31.363",info,"DISPATCH","New FCFS Dispatch available: Shop & Deliver #SPK-534121 • Pay: $27.96 (4.9 mi).",SPK-534121
+LOG-0.6787829500973075-1779557254250,"10:27:34.250",competitor,"SWIPED","RIVAL SWIPE: Another driver accepted #SPK-882489 ($29.12) before you tapped.",SPK-882489
+LOG-0.04470742488312185-1779557256290,"10:27:36.290",competitor,"COMPETITOR","Rival driver auto-grabber swiped #SPK-991197! (Response time limit exceeded).",SPK-991197
+LOG-0.566787208956842-1779557256290,"10:27:36.290",competitor,"COMPETITOR","Rival driver auto-grabber swiped #SPK-991197! (Response time limit exceeded).",SPK-991197
+LOG-0.08598318084104661-1779557258864,"10:27:38.864",info,"DISPATCH","New FCFS Dispatch available: Curbside Pickup #SPK-599829 • Pay: $18.92 (10.6 mi).",SPK-599829
+LOG-0.11065340672671842-1779557258865,"10:27:38.865",info,"DISPATCH","New FCFS Dispatch available: Curbside Pickup #SPK-507713 • Pay: $14.35 (10.5 mi).",SPK-507713
+LOG-0.4383841406185378-1779557259349,"10:27:39.349",competitor,"COMPETITOR","Rival driver auto-grabber swiped #SPK-882489! (Response time limit exceeded).",SPK-882489
+LOG-0.6307312854414224-1779557259349,"10:27:39.349",competitor,"COMPETITOR","Rival driver auto-grabber swiped #SPK-882489! (Response time limit exceeded).",SPK-882489
